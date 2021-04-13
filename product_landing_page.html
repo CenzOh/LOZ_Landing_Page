@@ -1,0 +1,117 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<style>
+  .logo-image{width:200px;}
+  header
+  {
+    top: 0px;
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    position: fixed;
+  }
+  ul{
+    list-style: none; 
+    display:flex;
+    justify-content: space-around;
+  }
+  nav{width: 100%;}
+  /* .navbar{} */
+  .newsletter{
+    height:650px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form{
+    text-align:center;
+    margin-bottom: 30px;
+  }
+  .video-page {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .video{
+    text-align: center;
+  }
+  .pricing{
+    height:691px;
+    width: 900px;
+    background-color: black;
+    background-image: url("https://i.imgur.com/Dx8c4Fc.png")
+  }
+  
+  @media only screen and (max-width: 600px){
+    nav{
+      display:none;
+    }
+  }
+  
+  footer{
+  padding: 20px;
+  text-align: center;
+  background-color: lime;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+}
+  
+  
+</style>
+
+<header id="header">  
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/362d4df9-362f-4c6c-97f3-adc095a66b34/d5hhs7t-a96e613f-22ef-4936-af13-7085f4e7d30c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMzYyZDRkZjktMzYyZi00YzZjLTk3ZjMtYWRjMDk1YTY2YjM0XC9kNWhoczd0LWE5NmU2MTNmLTIyZWYtNDkzNi1hZjEzLTcwODVmNGU3ZDMwYy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.43sUnzTWOKPYmuIanwetIbxoqZt2QFApTsUngWOTLhM"
+       alt="Legend of Zelda A Link to the Past Logo"
+       border="0"
+       id="header-img"
+       width="300px";
+       >
+  <nav id="nav-bar">
+    <ul>
+      <li>Legend of Zelda</li> &nbsp;  &nbsp;
+      <li><a class="nav-link" href="#features"> Features</a> &nbsp;  &nbsp;</li>
+      <li><a class="nav-link" href="#pricing"> Pricing</a> &nbsp;  &nbsp;</li>
+      <li><a class="nav-link" href="#newsletter"> Newsletter</a> &nbsp;  &nbsp;</li>
+    </ul> <!-- href will link to a section on the same page-->
+  </nav>
+  
+</header>
+
+<body>
+
+
+<div class="features" id="features">
+  <div class="video">
+    <h1> Features </h1>
+    <p>Embark on a grand journey to rescue the kingdom of Hyrule, defeat the dark lord Ganon, and rescue the descendants of the Seven Sages, A Link to The Past utilizes its roots with a top down perspective similiar to the original The Legend of Zelda. Travel through parallel worlds and acquire the Master Sword! <p>
+      <iframe id="video" width="420" height="315"
+src="https://www.youtube.com/embed/wg1MXUZC2_E" frameborder = "0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"allowfullscreen>
+</iframe>  </div>
+</div>
+  
+
+<div class = "pricing" id="pricing">
+  
+  
+</div>
+  
+ <div class="newsletter" id = "newsletter">
+  <form class="form" id="form" action="https://www.freecodecamp.com/email-submit"> 
+    <h1> Sign up for our Newsletter </h1>
+      <label> Email Address:
+        <input type="email" id="email" name="email" placeholder="myname@email.com" required/>
+      </label>
+        <br>
+      <div>
+        <input id="submit" type="submit"></input>
+      </div>
+   </form>
+</div>
+
+
+<footer> © 2021 Vincenzo Mezzio </footer>
+
+
